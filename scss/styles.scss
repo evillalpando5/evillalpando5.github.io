@@ -34,8 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
-$base-color-hover: darken($base-color, 10%);
+$base-color: lightpink;
+$base-color-hover: darken(lightpink, 10%);
 
 // Define background colors
 $background: #fff;
@@ -168,7 +168,7 @@ header {
 
     a {
         display: block;
-        color: $base-color;
+        color: lightpink;
         padding: 10px;
 
         &:hover {
@@ -179,7 +179,7 @@ header {
         }
 
         &:focus {
-            color: $base-color;
+            color: lightpink;
             text-decoration: none;
         }
     }
@@ -206,7 +206,7 @@ header {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: $base-color;
+    color: lightpink;
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
